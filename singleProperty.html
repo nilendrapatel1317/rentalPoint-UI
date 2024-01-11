@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Bootstrap Structure</title>
+
+    <!-- Custom CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Remixicon CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Bootstrap Style CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <header>
+        <nav>
+          <div class="container py-1 px-0">
+            <div class="navbar col-12  h-20 py-0">
+              <div class="nav-left col-4 h-100 display-flex justify-content-start ps-5">
+                  <div class="web-logo-img">
+                      <a href="./home.html" class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 "><h1 class="fw-bold">RP</h1></a>
+                  </div>
+              </div>
+              <div class="nav-right col-8   h-100">
+                  <div class="col h-50 social-links display-flex  gap-3 fw-semibold justify-content-end ">
+                      <div class="col-6 row nav-r-top">
+                        <div id="parallelogram-container" class="display-flex mx-5 position-relative" style="gap: 32px;">
+                          <div class="parallelogram position-relative display-flex"><a href="./home.html" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Find Property</a></div>
+                          <div class="parallelogram position-relative display-flex"><a href="./home.html" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Rent Property</a></div>
+                          <div class="nav-r-t-cir display-flex ">
+                            <div class="nav-inner-cir-vs display-flex">
+                              <small>OR</small>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col h-50  nav-links">
+                      <div class="row h-100 display-flex  ">
+                          <div class="col py-1  text-center ">
+                              <a href="./home.html" class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Home</a>
+                          </div>
+                          <div class="col py-1 text-center ">
+                              <a href="./propertyList.html" class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Properties</a>
+                          </div>
+                          <div class="col py-1 text-center ">
+                              <a href="./rentAgreement.html" class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Rent Agreement</a>
+                          </div>
+                          <div class="col py-1 text-center ">
+                              <a href="" class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">How it works</a>
+                          </div>
+                          <div class="col py-1 text-center ">
+                              <a href="./contactPage.html" class="link-dark link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Contact Us</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+              
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="container singleProperty px-0 my-2">
+            <div class="singleProp-wrapper py-3 ">
+              <div class="row single-top bg-light border rounded-2 p-2">
+                <div class="col h-100  p-3">
+                  <div class="col lg-img h-75 py-1 border rounded-2">
+                    <img src="./images/singleProperty.svg" alt="">
+                  </div>
+                  <div class="col display-flex gap-3 multiples-img h-25  ">
+                    <div class="col h-75 p-1 border rounded-3">
+                      <img src="./images/singleProperty.svg" alt="">
+                    </div>
+                    <div class="col h-75 p-1 border rounded-3">
+                      <img src="./images/singleProperty.svg" alt="">
+                    </div>
+                    <div class="col h-75 p-1 border rounded-3">
+                      <img src="./images/singleProperty.svg" alt="">
+                    </div>
+                    <div class="col h-75 p-1 border rounded-3">
+                      <img src="./images/singleProperty.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col h-100 py-4">
+                  <div class="col d-flex justify-content-between  mb-4">
+                    <div>
+                      <h2>1BHk Farm House</h2>
+                      <h5 class="fw-normal">Bhawanidham Phase-1 , Ayodha Bypass Road</h5>
+                    </div>
+                    <div>
+                      <h4 class="prop-price position-relative" data-price-fixed-tag="Price Fixed">Rs 10,000 </h4>
+                    </div>
+                  </div>
+                  
+                  <div class="col pro-project-name my-1 d-flex align-items-center gap-4 ps-1">
+                    <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                        <i class="ri-file-text-fill"></i>
+                        <div>
+                            <small>Project name</small>
+                            <h6>Tulips Green</h6>
+                        </div>
+                    </div>
+                    <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                        <i class="ri-calendar-check-fill"></i>
+                        <div>
+                            <small>Availability</small>
+                            <h6>Immediately</h6>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="col  my-4" >
+                    <p style="opacity: .7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde ut eligendi dolor laudantium nulla quaerat excepturi quasi impedit nobis iusto soluta minima reiciendis, in consectetur exercitationem necessitatibus. Tempora, eius!</p>
+                    <p style="opacity: .7;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde ut eligendi dolor laudantium nulla quaerat excepturi quasi impedit nobis iusto soluta minima reiciendis, in consectetur exercitationem necessitatibus. Tempora, eius!</p>
+                  </div>
+
+                  <div class="col d-flex gap-3 mb-2 mt-5">
+                      <small class="fw-normal">Posted 6 hours ago</small>
+                  </div>
+                  <div class="col d-flex gap-3">
+                      <button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Contact Owner</button>
+                      <button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Schedule to visit</button>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="col single-bottom position-relative d-flex px-5 flex-column gap-1 mt-5">
+                <div class="ftr-wrapper bg-light rounded-4 my-3 mt-5 p-3">
+                    <div class="ftr-top  display-flex justify-content-between px-2">
+                      <div class="ftr-wrap-img rounded-1 ">
+                        <img src="./images/featured-img.svg" alt="">
+                      </div>
+                      <div class="ftr-wrap-dets col-8">
+                        <div class="col d-flex align-items-center justify-content-between">
+                          <h4>1 BHK  Farm House </h4>
+                          <h5 class="prop-price position-relative" data-price-fixed-tag="Price Fixed">Rs 10,000 </h5>
+                        </div>
+                        <div class="col">
+                            <p>Bhawanidham Phase-1 , Ayodha Bypass Road</p>
+                        </div>
+    
+                        <div class="col pro-project-name my-1 d-flex align-items-center gap-4 ps-1">
+                            <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                                <i class="ri-file-text-fill"></i>
+                                <div>
+                                    <small>Project name</small>
+                                    <h6>Tulips Green</h6>
+                                </div>
+                            </div>
+                            <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                                <i class="ri-calendar-check-fill"></i>
+                                <div>
+                                    <small>Availability</small>
+                                    <h6>Immediately</h6>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e</small>
+                      </div>
+                    </div>
+                    <div class="ftr-bottom display-flex justify-content-between px-3 ">
+                      <small class="posted-date mt-2" style="opacity: .6;">Posted 6 days ago</small>
+                      <div class="d-flex gap-2 my-2">
+                        <!-- <button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Schedule Site Visit</button> -->
+                        <a href="./singleProperty.html"><button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Contact Owner</button></a>
+                        <a href="./singleProperty.html"><button class="view-prop  text-light rounded-2 border-0 px-4 py-2">View More Details</button></a>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="ftr-wrapper bg-light rounded-4 my-3 p-3">
+                    <div class="ftr-top  display-flex justify-content-between px-2">
+                      <div class="ftr-wrap-img rounded-1 ">
+                        <img src="./images/featured-img.svg" alt="">
+                      </div>
+                      <div class="ftr-wrap-dets col-8">
+                        <div class="col d-flex align-items-center justify-content-between">
+                          <h4>1 BHK  Farm House </h4>
+                          <h5 class="prop-price position-relative" data-price-fixed-tag="Price Fixed">Rs 10,000 </h5>
+                        </div>
+                        <div class="col">
+                            <p>Bhawanidham Phase-1 , Ayodha Bypass Road</p>
+                        </div>
+    
+                        <div class="col pro-project-name my-1 d-flex align-items-center gap-4 ps-1">
+                            <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                                <i class="ri-file-text-fill"></i>
+                                <div>
+                                    <small>Project name</small>
+                                    <h6>Tulips Green</h6>
+                                </div>
+                            </div>
+                            <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                                <i class="ri-calendar-check-fill"></i>
+                                <div>
+                                    <small>Availability</small>
+                                    <h6>Immediately</h6>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e</small>
+                      </div>
+                    </div>
+                    <div class="ftr-bottom display-flex justify-content-between px-3 ">
+                      <small class="posted-date mt-2" style="opacity: .6;">Posted 6 days ago</small>
+                      <div class="d-flex gap-2 my-2">
+                        <!-- <button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Schedule Site Visit</button> -->
+                        <a href="./singleProperty.html"><button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Contact Owner</button></a>
+                        <a href="./singleProperty.html"><button class="view-prop  text-light rounded-2 border-0 px-4 py-2">View More Details</button></a>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="ftr-wrapper bg-light rounded-4 my-3 p-3">
+                    <div class="ftr-top  display-flex justify-content-between px-2">
+                      <div class="ftr-wrap-img rounded-1 ">
+                        <img src="./images/featured-img.svg" alt="">
+                      </div>
+                      <div class="ftr-wrap-dets col-8">
+                        <div class="col d-flex align-items-center justify-content-between">
+                          <h4>1 BHK  Farm House </h4>
+                          <h5 class="prop-price position-relative" data-price-fixed-tag="Price Fixed">Rs 10,000 </h5>
+                        </div>
+                        <div class="col">
+                            <p>Bhawanidham Phase-1 , Ayodha Bypass Road</p>
+                        </div>
+    
+                        <div class="col pro-project-name my-1 d-flex align-items-center gap-4 ps-1">
+                            <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                                <i class="ri-file-text-fill"></i>
+                                <div>
+                                    <small>Project name</small>
+                                    <h6>Tulips Green</h6>
+                                </div>
+                            </div>
+                            <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                                <i class="ri-calendar-check-fill"></i>
+                                <div>
+                                    <small>Availability</small>
+                                    <h6>Immediately</h6>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e</small>
+                      </div>
+                    </div>
+                    <div class="ftr-bottom display-flex justify-content-between px-3 ">
+                      <small class="posted-date mt-2" style="opacity: .6;">Posted 6 days ago</small>
+                      <div class="d-flex gap-2 my-2">
+                        <!-- <button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Schedule Site Visit</button> -->
+                        <a href="./singleProperty.html"><button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Contact Owner</button></a>
+                        <a href="./singleProperty.html"><button class="view-prop  text-light rounded-2 border-0 px-4 py-2">View More Details</button></a>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="ftr-wrapper bg-light rounded-4 my-3 p-3">
+                    <div class="ftr-top  display-flex justify-content-between px-2">
+                      <div class="ftr-wrap-img rounded-1 ">
+                        <img src="./images/featured-img.svg" alt="">
+                      </div>
+                      <div class="ftr-wrap-dets col-8">
+                        <div class="col d-flex align-items-center justify-content-between">
+                          <h4>1 BHK  Farm House </h4>
+                          <h5 class="prop-price position-relative" data-price-fixed-tag="Price Fixed">Rs 10,000 </h5>
+                        </div>
+                        <div class="col">
+                            <p>Bhawanidham Phase-1 , Ayodha Bypass Road</p>
+                        </div>
+    
+                        <div class="col pro-project-name my-1 d-flex align-items-center gap-4 ps-1">
+                            <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                                <i class="ri-file-text-fill"></i>
+                                <div>
+                                    <small>Project name</small>
+                                    <h6>Tulips Green</h6>
+                                </div>
+                            </div>
+                            <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                                <i class="ri-calendar-check-fill"></i>
+                                <div>
+                                    <small>Availability</small>
+                                    <h6>Immediately</h6>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e</small>
+                      </div>
+                    </div>
+                    <div class="ftr-bottom display-flex justify-content-between px-3 ">
+                      <small class="posted-date mt-2" style="opacity: .6;">Posted 6 days ago</small>
+                      <div class="d-flex gap-2 my-2">
+                        <!-- <button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Schedule Site Visit</button> -->
+                        <a href="./singleProperty.html"><button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Contact Owner</button></a>
+                        <a href="./singleProperty.html"><button class="view-prop  text-light rounded-2 border-0 px-4 py-2">View More Details</button></a>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="ftr-wrapper bg-light rounded-4 my-3 p-3">
+                    <div class="ftr-top  display-flex justify-content-between px-2">
+                      <div class="ftr-wrap-img rounded-1 ">
+                        <img src="./images/featured-img.svg" alt="">
+                      </div>
+                      <div class="ftr-wrap-dets col-8">
+                        <div class="col d-flex align-items-center justify-content-between">
+                          <h4>1 BHK  Farm House </h4>
+                          <h5 class="prop-price position-relative" data-price-fixed-tag="Price Fixed">Rs 10,000 </h5>
+                        </div>
+                        <div class="col">
+                            <p>Bhawanidham Phase-1 , Ayodha Bypass Road</p>
+                        </div>
+    
+                        <div class="col pro-project-name my-1 d-flex align-items-center gap-4 ps-1">
+                            <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                                <i class="ri-file-text-fill"></i>
+                                <div>
+                                    <small>Project name</small>
+                                    <h6>Tulips Green</h6>
+                                </div>
+                            </div>
+                            <div class="col-4 rounded-3 d-flex align-items-center justify-content-center gap-3 ">
+                                <i class="ri-calendar-check-fill"></i>
+                                <div>
+                                    <small>Availability</small>
+                                    <h6>Immediately</h6>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <small>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud e</small>
+                      </div>
+                    </div>
+                    <div class="ftr-bottom display-flex justify-content-between px-3 ">
+                      <small class="posted-date mt-2" style="opacity: .6;">Posted 6 days ago</small>
+                      <div class="d-flex gap-2 my-2">
+                        <!-- <button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Schedule Site Visit</button> -->
+                        <a href="./singleProperty.html"><button class="view-prop  text-light rounded-2 border-0 px-4 py-2">Contact Owner</button></a>
+                        <a href="./singleProperty.html"><button class="view-prop  text-light rounded-2 border-0 px-4 py-2">View More Details</button></a>
+                      </div>
+                    </div>
+                </div>
+
+              </div>
+            </div>
+
+            
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+        <div class="container h-100 display-flex px-0 text-light">
+          <div class="col-4 h-100 footer-1 display-flex flex-column align-items-start justify-content-start ps-5 pt-5 gap-1">
+            <small class="fw-bold web-logo">RP</small>
+            <small>Property Management</small>
+            <span></span>
+            <small class="copyright">Copyright RP@2023. All rights reserved</small>
+          </div>
+          
+          <div class="col-2 h-100 footer-2 display-flex flex-column gap-3 align-items-start justify-content-start pt-5">
+            <a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Home</a>
+            <a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Property</a>
+            <a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Rent Agreement</a>
+            <a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">How it works</a>
+            <a href="" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Contact Us</a>
+          </div>
+          
+          <div class="col-2 h-100 footer-3 display-flex flex-column gap-3 align-items-start justify-content-start pt-5 ">
+            <a href="./aboutPage.html" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">For Partners</a>
+            <a href="./aboutPage.html" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Terms & Conditions</a>
+            <a href="./aboutPage.html" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Annual Return</a>
+            <a href="./aboutPage.html" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Privacy Policy</a>
+            <a href="./aboutPage.html" class="link-light link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover">Sitemap</a>
+          </div>
+          
+          <div class="col-4 h-100 footer-4 display-flex flex-column align-items-center justify-content-start pt-5 ">
+            <small>Reach out to us!</small>
+            <img src="./images/footer-map.svg" alt="">
+          </div>
+        </div>
+    </footer>
+
+
+
+    <!-- GSAP JS CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js" integrity="sha512-cOH8ndwGgPo+K7pTvMrqYbmI8u8k6Sho3js0gOqVWTmQMlLIi6TbqGWRTpf1ga8ci9H3iPsvDLr4X7xwhC/+DQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <!-- Custom JS File -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
